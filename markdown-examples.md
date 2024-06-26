@@ -1,166 +1,122 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
 
-# Markdown-Erweiterungsbeispiele
+hero:
+  name: "Modern Cloud Administrator Test Dingens"
+  text: "Wir brauchen Hilfe"
+  tagline: "Die ultimative Lösung für Ihre Cloud-Verwaltung"
+  actions:
+    - theme: brand
+      text: Markdown Beispiele
+      link: /markdown-examples
+    - theme: alt
+      text: API Beispiele
+      link: /api-examples
+    - theme: alt
+      text: Spiele
+      link: /spiele
 
-Diese Seite demonstriert einige der integrierten Markdown-Erweiterungen, die von VitePress bereitgestellt werden.
+features:
+  - title: 🛠️ Leistungsstarke Werkzeuge
+    details: Nutzen Sie die besten Werkzeuge zur Verwaltung und Optimierung Ihrer Cloud-Infrastruktur.
+    image: /images/toolbox.png
+  - title: 🔒 Sicherheit an erster Stelle
+    details: Unsere Lösungen bieten höchste Sicherheitsstandards, um Ihre Daten zu schützen.
+    image: /images/security.png
+  - title: 🌐 Globale Reichweite
+    details: Verwalten Sie Ihre Cloud-Ressourcen weltweit mit unseren benutzerfreundlichen Tools.
+    image: /images/global.png
+  - title: 🚀 Blitzschnelle Leistung
+    details: Erleben Sie maximale Effizienz und Geschwindigkeit in Ihren Cloud-Operationen.
+    image: /images/speed.png
+  - title: 📊 Umfangreiche Analysen
+    details: Treffen Sie fundierte Entscheidungen mit detaillierten Analysen und Berichten.
+    image: /images/analytics.png
+  - title: 🤝 Kundensupport rund um die Uhr
+    details: Unser Support-Team steht Ihnen jederzeit zur Verfügung, um Ihre Fragen zu beantworten.
+    image: /images/support.png
+  - title: 🎮 Lustige Spiele
+    details: Machen Sie eine Pause und genießen Sie einige unterhaltsame Spiele.
+    image: /images/games.png
 
-## Syntax-Hervorhebung
+footer:
+  copyright: © 2024 Modern Cloud Administrator. All Rights Reserved.
+  links:
+    - text: Über uns
+      link: /about
+    - text: Kontakt
+      link: /contact
+    - text: Datenschutz
+      link: /privacy
+    - text: Spiele
+      link: /spiele
+---
 
-VitePress bietet Syntax-Hervorhebung mit [Shiki](https://github.com/shikijs/shiki), einschließlich zusätzlicher Funktionen wie Zeilenhervorhebung:
+## Willkommen
 
-**Eingabe**
+Willkommen auf der offiziellen Seite des Modern Cloud Administrator Test Dingens. Hier finden Sie alle Informationen und Ressourcen, die Sie benötigen, um Ihre Cloud-Umgebung effizient und sicher zu verwalten.
 
-````
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
+![Cloud](https://example.com/images/cloud.jpg)
 
-**Ausgabe**
+## Schnellstart
 
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
+### 1. Markdown Beispiele
 
-## Benutzerdefinierte Container
+Erfahren Sie, wie Sie mit Markdown verschiedene Inhalte stilvoll und funktional präsentieren können. [Hier klicken](/markdown-examples)
 
-**Eingabe**
+### 2. API Beispiele
 
-```md
-::: info
-Das ist eine Infobox.
-:::
+Entdecken Sie die Leistungsfähigkeit unserer APIs und wie Sie diese in Ihre Anwendungen integrieren können. [Hier klicken](/api-examples)
 
-::: tip
-Das ist ein Tipp.
-:::
+### 3. Lustige Spiele
 
-::: warning
-Das ist eine Warnung.
-:::
+Machen Sie eine Pause und spielen Sie ein paar Spiele zur Entspannung. [Hier klicken](/spiele)
 
-::: danger
-Das ist eine gefährliche Warnung.
-:::
+## Features im Detail
 
-::: details
-Das ist ein Detailblock.
-:::
-```
+### 🛠️ Leistungsstarke Werkzeuge
 
-**Ausgabe**
+Unsere Plattform bietet eine breite Palette an Werkzeugen, die speziell entwickelt wurden, um Ihre Cloud-Verwaltung zu optimieren und zu vereinfachen.
 
-::: info
-Das ist eine Infobox.
-:::
+![Toolbox](https://example.com/images/toolbox.png)
 
-::: tip
-Das ist ein Tipp.
-:::
+### 🔒 Sicherheit an erster Stelle
 
-::: warning
-Das ist eine Warnung.
-:::
+Mit modernster Sicherheitstechnologie gewährleisten wir den Schutz Ihrer sensiblen Daten und Ressourcen.
 
-::: danger
-Das ist eine gefährliche Warnung.
-:::
+![Security](https://example.com/images/security.png)
 
-::: details
-Das ist ein Detailblock.
-:::
+### 🌐 Globale Reichweite
 
-## Diagramme
+Egal, wo auf der Welt Sie sich befinden, unsere Lösungen sind darauf ausgelegt, Ihnen jederzeit und überall die beste Leistung zu bieten.
 
-VitePress unterstützt auch die Einbindung von Diagrammen mit [Mermaid](https://mermaid-js.github.io/mermaid/).
+![Global](https://example.com/images/global.png)
 
-**Eingabe**
+### 🚀 Blitzschnelle Leistung
 
-````
-```mermaid
-graph TD;
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D;
-```
-````
+Profitieren Sie von hochperformanten Lösungen, die Ihre Cloud-Operationen beschleunigen und Ihre Produktivität steigern.
 
-**Ausgabe**
+![Speed](https://example.com/images/speed.png)
 
-```mermaid
-graph TD;
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D;
-```
+### 📊 Umfangreiche Analysen
 
-## Task-Listen
+Nutzen Sie detaillierte Berichte und Analysen, um Ihre Cloud-Strategien zu verfeinern und bessere Geschäftsentscheidungen zu treffen.
 
-Markdown unterstützt auch Task-Listen, die nützlich für To-Do-Listen und Aufgabenverfolgung sind.
+![Analytics](https://example.com/images/analytics.png)
 
-**Eingabe**
+### 🤝 Kundensupport rund um die Uhr
 
-```md
-- [x] Aufgabe 1
-- [ ] Aufgabe 2
-- [ ] Aufgabe 3
-```
+Unser engagiertes Support-Team ist stets bereit, Ihnen bei allen Fragen und Anliegen zu helfen.
 
-**Ausgabe**
+![Support](https://example.com/images/support.png)
 
-- [x] Aufgabe 1
-- [ ] Aufgabe 2
-- [ ] Aufgabe 3
+### 🎮 Lustige Spiele
 
-## Emojis
+Gönnen Sie sich eine Pause mit unseren unterhaltsamen Spielen, die Sie direkt auf unserer Website spielen können.
 
-Emojis können einfach in Markdown-Dokumente eingefügt werden, um sie lebendiger zu gestalten.
+![Games](https://example.com/images/games.png)
 
-**Eingabe**
+---
 
-```md
-Hier sind einige Emojis: 🎉 🚀 🌟
-```
-
-**Ausgabe**
-
-Hier sind einige Emojis: 🎉 🚀 🌟
-
-## Tabellen
-
-Markdown unterstützt auch Tabellen, die nützlich sind, um Daten in einem strukturierten Format darzustellen.
-
-**Eingabe**
-
-```md
-| Name     | Alter | Beruf       |
-|----------|-------|-------------|
-| Alice    | 30    | Ingenieurin |
-| Bob      | 25    | Designer    |
-| Charlie  | 35    | Lehrer      |
-```
-
-**Ausgabe**
-
-| Name     | Alter | Beruf       |
-|----------|-------|-------------|
-| Alice    | 30    | Ingenieurin |
-| Bob      | 25    | Designer    |
-| Charlie  | 35    | Lehrer      |
-
-## Mehr
-
-Schauen Sie sich die Dokumentation für die [vollständige Liste der Markdown-Erweiterungen](https://vitepress.dev/guide/markdown) an.
+Mit diesen Ergänzungen und Verbesserungen haben Sie nun eine ansprechende und informative Startseite für Ihre VitePress-Dokumentation, die auch Spaß und Unterhaltung bietet. Fügen Sie diesen Text einfach in Ihre Markdown-Datei ein und genießen Sie die neuen Features!
