@@ -57,7 +57,7 @@ footer:
 
 Willkommen auf der offiziellen Seite des Modern Cloud Administrator Test Dingens. Hier finden Sie alle Informationen und Ressourcen, die Sie benötigen, um Ihre Cloud-Umgebung effizient und sicher zu verwalten.
 
-![Cloud](TestProjekt/images/image.webp)
+![Cloud](./images/image.webp)
 
 ## Schnellstart
 
