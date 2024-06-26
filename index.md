@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "MODERN Cloud Administrator Test Dingensworkflowsworkflowsworkflowsworkflowsworkflowsworkflowsworkflows"
+  name: "MODERN Cloud Administrator Test Dingens workflowsworkflowsworkflowsworkflowsworkflowsworkflowsworkflows"
   text: "Wir brauchen Hilfe"
   tagline: "Die ultimative Lösung für Ihre Cloud-Verwaltung"
   actions:
