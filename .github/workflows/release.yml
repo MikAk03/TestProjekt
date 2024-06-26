@@ -1,31 +1,24 @@
-name: Deploy VitePress to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
-  push:
-    branches:
-      - release  # Ändern Sie den Branch-Namen entsprechend Ihren Anforderungen
-
+  push: 
+    branches: [ release ] # is triggered if push event in release branch occurs
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # run ubuntu
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3  # Aktualisiert auf v3
+      - name: Checkout
+        uses: actions/checkout@v2 # checkout your repo - this is an official action provided by GitHub
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v3  # Aktualisiert auf v3
-      with:
-        node-version: '20'  # Aktualisiert auf Node.js 20
+      - name: Set up Node environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
 
-    - name: Install dependencies
-      run: npm install
+      - name: Install dependencies
+        run: npm i
 
-    - name: Build VitePress site
-      run: npm run docs:build
+      - name: Build project files
+        run: npm run docs:build
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./docs/.vitepress/dist
