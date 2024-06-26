@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Simple VitePress Site"
-  text: "Training Page for Cloud Computing Course"
+  name: "Modern Cloud Administrator Test dingens"
+  text: "Wir brauchen Hilfe"
   tagline: My great project tagline
   actions:
     - theme: brand
