@@ -1,12 +1,13 @@
-# Markdown Extension Examples
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+# Markdown-Erweiterungsbeispiele
 
-## Syntax Highlighting
+Diese Seite demonstriert einige der integrierten Markdown-Erweiterungen, die von VitePress bereitgestellt werden.
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
+## Syntax-Hervorhebung
 
-**Input**
+VitePress bietet Syntax-Hervorhebung mit [Shiki](https://github.com/shikijs/shiki), einschließlich zusätzlicher Funktionen wie Zeilenhervorhebung:
+
+**Eingabe**
 
 ````
 ```js{4}
@@ -20,7 +21,7 @@ export default {
 ```
 ````
 
-**Output**
+**Ausgabe**
 
 ```js{4}
 export default {
@@ -32,54 +33,134 @@ export default {
 }
 ```
 
-## Custom Containers
+## Benutzerdefinierte Container
 
-**Input**
+**Eingabe**
 
 ```md
 ::: info
-This is an info box.
+Das ist eine Infobox.
 :::
 
 ::: tip
-This is a tip.
+Das ist ein Tipp.
 :::
 
 ::: warning
-This is a warning.
+Das ist eine Warnung.
 :::
 
 ::: danger
-This is a dangerous warning.
+Das ist eine gefährliche Warnung.
 :::
 
 ::: details
-This is a details block.
+Das ist ein Detailblock.
 :::
 ```
 
-**Output**
+**Ausgabe**
 
 ::: info
-This is an info box.
+Das ist eine Infobox.
 :::
 
 ::: tip
-This is a tip.
+Das ist ein Tipp.
 :::
 
 ::: warning
-This is a warning.
+Das ist eine Warnung.
 :::
 
 ::: danger
-This is a dangerous warning.
+Das ist eine gefährliche Warnung.
 :::
 
 ::: details
-This is a details block.
+Das ist ein Detailblock.
 :::
 
-## More
+## Diagramme
 
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+VitePress unterstützt auch die Einbindung von Diagrammen mit [Mermaid](https://mermaid-js.github.io/mermaid/).
+
+**Eingabe**
+
+````
+```mermaid
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+```
+````
+
+**Ausgabe**
+
+```mermaid
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+```
+
+## Task-Listen
+
+Markdown unterstützt auch Task-Listen, die nützlich für To-Do-Listen und Aufgabenverfolgung sind.
+
+**Eingabe**
+
+```md
+- [x] Aufgabe 1
+- [ ] Aufgabe 2
+- [ ] Aufgabe 3
+```
+
+**Ausgabe**
+
+- [x] Aufgabe 1
+- [ ] Aufgabe 2
+- [ ] Aufgabe 3
+
+## Emojis
+
+Emojis können einfach in Markdown-Dokumente eingefügt werden, um sie lebendiger zu gestalten.
+
+**Eingabe**
+
+```md
+Hier sind einige Emojis: 🎉 🚀 🌟
+```
+
+**Ausgabe**
+
+Hier sind einige Emojis: 🎉 🚀 🌟
+
+## Tabellen
+
+Markdown unterstützt auch Tabellen, die nützlich sind, um Daten in einem strukturierten Format darzustellen.
+
+**Eingabe**
+
+```md
+| Name     | Alter | Beruf       |
+|----------|-------|-------------|
+| Alice    | 30    | Ingenieurin |
+| Bob      | 25    | Designer    |
+| Charlie  | 35    | Lehrer      |
+```
+
+**Ausgabe**
+
+| Name     | Alter | Beruf       |
+|----------|-------|-------------|
+| Alice    | 30    | Ingenieurin |
+| Bob      | 25    | Designer    |
+| Charlie  | 35    | Lehrer      |
+
+## Mehr
+
+Schauen Sie sich die Dokumentation für die [vollständige Liste der Markdown-Erweiterungen](https://vitepress.dev/guide/markdown) an.
