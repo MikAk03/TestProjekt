@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Modern Cloud Administrator Test Dingens"
+  name: "MODERN Cloud Administrator Test Dingens"
   text: "Wir brauchen Hilfe"
   tagline: "Die ultimative Lösung für Ihre Cloud-Verwaltung"
   actions:
